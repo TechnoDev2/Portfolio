@@ -620,7 +620,7 @@ video {
   justify-content: center;
   width: 99%;
   overflow: hidden;
-  min-height: 90vh;
+  min-height: 80vh;
   position: absolute;
 }
 
@@ -937,6 +937,22 @@ video {
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-\[82vh\] {
+  height: 82vh;
+}
+
+.h-\[88vh\] {
+  height: 88vh;
+}
+
+.h-\[85vh\] {
+  height: 85vh;
+}
+
+.h-\[86vh\] {
+  height: 86vh;
 }
 
 .w-full {
