@@ -34,6 +34,27 @@
     fill: #ffffff;
   }
 
+  /* shadow effect */
+
+  .shadowEffect{
+    position: relative;
+    width:300px;
+    height:75px;
+    margin:10px 0;
+    font-size:24px;
+    text-decoration:none;
+    @apply inline-flex items-center justify-center;
+  }
+  .shadowEffect a:hover{
+    color:#fff;
+  }
+  .shadowEffect a::before{
+    content:'';
+    @apply absolute top-0 left-0 w-[100%]
+  }
+
+
+
   /* Buttons css */
 
   .neonButton {
